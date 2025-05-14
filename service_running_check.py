@@ -28,3 +28,16 @@ if is_service_running(service):
 else:
     # If the service is not active or an error occurred, print this
     print(f"{service} is NOT running.")
+
+
+# import brings in a built-in Python module.
+
+# def is how you define a reusable function.
+
+# try-except is how you handle errors safely.
+
+# subprocess.check_output() runs system commands.
+
+# f"{variable}" inside strings is called an f-string, used for formatting.
+
+# strip() removes whitespace from both ends of the string.
